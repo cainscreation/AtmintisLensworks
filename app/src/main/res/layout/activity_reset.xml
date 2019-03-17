@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        tools:context=".reset" android:orientation="vertical">
+
+    <ImageView
+            android:src="@drawable/b"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageView"
+            android:layout_marginTop="0dp"/>
+
+
+    <EditText
+            android:layout_width="273dp"
+            android:layout_height="51dp"
+            android:inputType="textEmailAddress"
+            android:background="#fff"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:id="@+id/edit1"
+            android:textColorHint="#727272"
+            android:hint="@string/registered_email"
+    />
+    <Button
+            android:text="@string/reset_password"
+            android:layout_below="@+id/edit1"
+            android:gravity="center"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bu4"
+            android:layout_marginTop="46dp"
+            android:layout_alignEnd="@+id/edit1"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="51dp"
+            android:textColor="#003366"
+            android:background="#fff"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "73963094137",
+    "firebase_url": "https://atmintis-deb15.firebaseio.com",
+    "project_id": "atmintis-deb15",
+    "storage_bucket": "atmintis-deb15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73963094137:android:411a5c49b36f0b31",
+        "android_client_info": {
+          "package_name": "com.first.caincreation.atmintis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73963094137-v1ovck5kmkvidcjp8elmgd4e03rel021.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.first.caincreation.atmintis",
+            "certificate_hash": "bbe02ed27e109f80729c0f0b5855d953ec51faef"
+          }
+        },
+        {
+          "client_id": "73963094137-gceoallhudjvv7moevkf5un2q3ri52oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASmlGOLS4Y6H4jQqJVgHRUweAeMuOMUO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73963094137-gceoallhudjvv7moevkf5un2q3ri52oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

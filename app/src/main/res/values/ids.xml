@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="help" type="id"/>
+    <item name="about_us" type="id"/>
+    <item name="action_help" type="id"/>
+    <item name="action_about" type="id"/>
+</resources>
