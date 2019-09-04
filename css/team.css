@@ -1,0 +1,35 @@
+.contenthai{
+  width: 50%;
+
+}
+.member1{
+  position: absolute;
+  top: 10vh;
+  height: 100vh;
+  /* float: right; */
+  padding:15% 10% 0 10%;
+  background-image: url("../images/background2.png");
+  /* background-size: 80% auto; */
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.contenthai
+  {
+    float: right;
+    padding-top: 5%;
+    margin: 0
+    text-align: center;
+    color: white;
+    font-weight: 300;
+  }
+  .member2{
+    position: absolute;
+    top: 100vh;
+    height: 100vh;
+    /* float: right; */
+    padding:15% 10% 0 10%;
+    background-image: url("../images/background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }

@@ -1,0 +1,144 @@
+body {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+   
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 80vh;
+
+}
+
+#front {
+  padding-top: 30vh;
+  font-family: 'Poppins', black;
+  /* font-weight: bolder; */
+  /* padding-bottom: 20%; */
+  -webkit-animation-duration: 10s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.none {
+  display: none;
+}
+
+#front li {
+  padding: 0 0 4% 0;
+  line-height: 1;
+  text-align: center;
+  /* text-decoration:none; */
+  list-style-type: none;
+  font-size: 80px;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#front ul {
+  text-decoration: none;
+}
+
+#front img {
+  width: 20%;
+}
+
+.containerblack {
+  background-color: black;
+  color: white;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+  height: 100vh;
+}
+
+.hide {
+  opacity: 0;
+}
+
+#middle {
+  color: white;
+  /* float: right; */
+  width: 100%;
+}
+
+.para {
+  position: absolute;
+  width: 30%;
+  /* padding-left: 4%;
+  padding-top: 10%; */
+  left: 10%;
+  top:30%;
+
+}
+#image1{
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  float:right;
+}
+#heading{
+  font-size:50px;
+  font-weight: 400;
+}
+#content{
+  font-size: 20px;
+  padding-top: 1%;
+}
+
+@media screen and (max-width:600px) {
+  #back li {
+    font-size: 12px;
+  }
+  #heading{
+    font-size:20px;
+    font-weight: 400;
+  }
+  #content{
+    font-size: 12px;
+    padding-top: 1%;
+  }
+  .para {
+    position: absolute;
+    width: 80%;
+    padding:0 5%;
+    /* padding-left: 4%;
+    padding-top: 10%; */
+    left: 4%;
+    top:30%;
+
+  }
+  /* #image1{
+    position: absolute;
+    top: 30px;
+    right: 10%;
+
+  }
+  .layer1{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 200px;
+  } */
+.actived{
+  font-size: 8px;
+  padding-top:3px;
+  padding-bottom: 3px;
+}
+.deactive{
+  font-size: 8px;
+  padding-top:3px;
+  padding-bottom: 3px;
+}
+}
+
+body {
+  /* margin: 0;
+	overflow: hidden; */
+}
+
+canvas {
+  background-image: radial-gradient(#666, #333);
+}

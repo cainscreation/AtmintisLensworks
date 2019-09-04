@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 80vh;
+}
+.middlenum{
+position: absolute;
+top: 20%;
+left: 5%;
+width: 40%;
+color: white;
+}
+.middlenum h1{
+  font-size: 60px;
+}
+.middlenum p{
+  font-size: 20px;
+  line-height: 1.8;
+}
+.forum h1{
+  font-size: 60px;
+  padding-bottom: 3%;
+
+}
+.forum{
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  width: 40%;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+input{
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+/* height: 10%; */
+padding: 1% 2%;
+width: 80%;
+
+}

@@ -1,0 +1,25 @@
+.customsnav{
+  align-items: center;
+}
+#navmain{
+  float:right;
+}
+.actived{
+  color: white;
+}
+.deactive{
+  color: grey;
+}
+.deactive:hover{
+color: white;
+}
+#footer{
+color: white;
+position:absolute;
+bottom:2vh;
+width: 100%;
+}
+
+@media screen and (max-width:600px)  {
+
+}
